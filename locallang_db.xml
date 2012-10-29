@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'ajado_companies'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_ajadocompanies_location">Location</label>
+			<label index="tx_ajadocompanies_location.name">Name</label>
+			<label index="tx_ajadocompanies_industry">Industry</label>
+			<label index="tx_ajadocompanies_industry.name">Name</label>
+			<label index="tx_ajadocompanies_company">Company</label>
+			<label index="tx_ajadocompanies_company.title">Title</label>
+			<label index="tx_ajadocompanies_company.subtitle">Subtitle</label>
+			<label index="tx_ajadocompanies_company.address1">Address Line 1</label>
+			<label index="tx_ajadocompanies_company.address2">Address Line 2</label>
+			<label index="tx_ajadocompanies_company.zip">ZIP</label>
+			<label index="tx_ajadocompanies_company.city">City</label>
+			<label index="tx_ajadocompanies_company.telephone">Telephone</label>
+			<label index="tx_ajadocompanies_company.mobile">Mobile</label>
+			<label index="tx_ajadocompanies_company.fax">Fax</label>
+			<label index="tx_ajadocompanies_company.email">E-Mail</label>
+			<label index="tx_ajadocompanies_company.state">State</label>
+			<label index="tx_ajadocompanies_company.country">Country</label>
+			<label index="tx_ajadocompanies_company.url">URL</label>
+			<label index="tx_ajadocompanies_company.location">Location</label>
+			<label index="tx_ajadocompanies_company.industry">Industry</label>
+			<label index="tt_content.list_type_pi1">List view</label>
+			<label index="tt_content.list_type_pi2">Detail view</label>
+			<label index="tt_content.list_type_pi3">Search box</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tx_ajadocompanies_location">Ort</label>
+			<label index="tx_ajadocompanies_industry.name">Name</label>
+			<label index="tx_ajadocompanies_company">Firma</label>
+			<label index="tx_ajadocompanies_company.mobile">Mobiltelefon</label>
+			<label index="tx_ajadocompanies_company.fax">Fax</label>
+			<label index="tx_ajadocompanies_company.state">Bundesland</label>
+			<label index="tx_ajadocompanies_company.country">Land</label>
+			<label index="tt_content.list_type_pi1">Listenansicht</label>
+			<label index="tt_content.list_type_pi2">Detailansicht</label>
+			<label index="tt_content.list_type_pi3">Suchbox</label>
+		</languageKey>
+	</data>
+</T3locallang>

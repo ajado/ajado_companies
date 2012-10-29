@@ -1,0 +1,3 @@
+plugin.tx_ajadocompanies_pi1 {
+	pid_list={$plugin.tx_ajadocompanies.pid_list}
+}
