@@ -138,7 +138,7 @@ $TCA['tx_ajadocompanies_industry'] = array(
 $TCA['tx_ajadocompanies_company'] = array(
 	'ctrl' => $TCA['tx_ajadocompanies_company']['ctrl'],
 	'interface' => array(
-		'showRecordFieldList' => 'sys_language_uid,l10n_parent,l10n_diffsource,hidden,starttime,endtime,title,subtitle,address1,address2,zip,city,telephone,mobile,fax,email,state,country,url,location,industry'
+		'showRecordFieldList' => 'sys_language_uid,l10n_parent,l10n_diffsource,hidden,starttime,endtime,title,subtitle,address1,address1_part2,address2,zip,city,telephone,mobile,fax,email,state,country,url,location,industry'
 	),
 	'feInterface' => $TCA['tx_ajadocompanies_company']['feInterface'],
 	'columns' => array(
@@ -229,6 +229,14 @@ $TCA['tx_ajadocompanies_company'] = array(
 		'address1' => array(		
 			'exclude' => 1,		
 			'label' => 'LLL:EXT:ajado_companies/locallang_db.xml:tx_ajadocompanies_company.address1',		
+			'config' => array(
+				'type' => 'input',	
+				'size' => '30',
+			)
+		),
+		'address1_part2' => array(		
+			'exclude' => 0,		
+			'label' => 'LLL:EXT:ajado_companies/locallang_db.xml:tx_ajadocompanies_company.address1_part2',		
 			'config' => array(
 				'type' => 'input',	
 				'size' => '30',
@@ -406,7 +414,7 @@ $TCA['tx_ajadocompanies_company'] = array(
 		),
 	),
 	'types' => array(
-		'0' => array('showitem' => 'sys_language_uid;;;;1-1-1, l10n_parent, l10n_diffsource, hidden;;1, title;;;;2-2-2, subtitle;;;;3-3-3, address1, address2, zip, city, telephone, mobile, fax, email, state, country, url, location, industry')
+		'0' => array('showitem' => 'sys_language_uid;;;;1-1-1, l10n_parent, l10n_diffsource, hidden;;1, title;;;;2-2-2, subtitle;;;;3-3-3, address1, address1_part2, address2, zip, city, telephone, mobile, fax, email, state, country, url, location, industry')
 	),
 	'palettes' => array(
 		'1' => array('showitem' => 'starttime, endtime')

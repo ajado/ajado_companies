@@ -61,6 +61,7 @@ CREATE TABLE tx_ajadocompanies_company (
 	title tinytext,
 	subtitle tinytext,
 	address1 tinytext,
+	address1_part2 tinytext,
 	address2 tinytext,
 	zip tinytext,
 	city tinytext,

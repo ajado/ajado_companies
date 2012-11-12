@@ -14,6 +14,7 @@
 			<label index="tx_ajadocompanies_company.title">Title</label>
 			<label index="tx_ajadocompanies_company.subtitle">Subtitle</label>
 			<label index="tx_ajadocompanies_company.address1">Address Line 1</label>
+			<label index="tx_ajadocompanies_company.address1_part2">Address1 Number</label>
 			<label index="tx_ajadocompanies_company.address2">Address Line 2</label>
 			<label index="tx_ajadocompanies_company.zip">ZIP</label>
 			<label index="tx_ajadocompanies_company.city">City</label>
@@ -34,6 +35,7 @@
 			<label index="tx_ajadocompanies_location">Ort</label>
 			<label index="tx_ajadocompanies_industry.name">Name</label>
 			<label index="tx_ajadocompanies_company">Firma</label>
+			<label index="tx_ajadocompanies_company.address1_part2">Addresse1 Nummer</label>
 			<label index="tx_ajadocompanies_company.mobile">Mobiltelefon</label>
 			<label index="tx_ajadocompanies_company.fax">Fax</label>
 			<label index="tx_ajadocompanies_company.state">Bundesland</label>
